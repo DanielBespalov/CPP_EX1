@@ -15,6 +15,7 @@ This repository contains implementations of various graph algorithms and data st
 - `Graph.cpp`: Implementation of the `Graph` class.
 - `Algorithms.hpp`: Header file for the algorithms used.
 - `Algorithms.cpp`: Implementation of the graph algorithms.
+- `test.cpp`: Contains a few tests for each function 
 
 ## Graph Class
 
@@ -31,11 +32,12 @@ This repository contains implementations of various graph algorithms and data st
 
 ### Functions
 
-- isConnected: Checks if the graph is connected.
-- shortestPath: Finds the shortest path between two vertices using BFS.
-- isContainsCycle: Checks if the graph contains a cycle.
-- isBipartite: Checks if the graph is bipartite and returns the two sets.
-- negativeCycle: Checks if the graph contains a negative weight cycle using the Bellman-Ford algorithm.
+- `int isConnected(Graph g)`: Checks if the graph is connected.
+- `std::string shortestPath(Graph g, unsigned long start, unsigned long end)`: Finds the shortest path between two vertices using BFS.
+- `int isContainsCycle(Graph g)`: Checks if the graph contains a cycle.
+- `std::string isBipartite(Graph g)`: Checks if the graph is bipartite and returns the two sets.
+- `std::string negativeCycle(Graph g)`: Checks if the graph contains a negative weight cycle using the Bellman-Ford algorithm.
+
 
 
 ## how to run the code
