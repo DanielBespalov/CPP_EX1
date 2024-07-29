@@ -40,8 +40,8 @@ This repository contains implementations of various graph algorithms and data st
 
 
 
-## how to run the code
-to run the code you need to open the terminal and type "make". it will automatically run the tests.  
+## How to run the code
+To run the code you need to open the terminal and type "make". it will automatically run the tests.  
 
 
 
